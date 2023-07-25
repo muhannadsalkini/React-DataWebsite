@@ -1,6 +1,6 @@
 
-# Gettin![screencapture-localhost-3000-2023-07-25-14_02_56](https://github.com/muhannadsalkini/React-DataWebsite/assets/67662481/01f9593e-16e5-4256-aae8-ebfdf6675969)
-g Started with Create React App
+![screencapture-localhost-3000-2023-07-25-14_02_56](https://github.com/muhannadsalkini/React-DataWebsite/assets/67662481/01f9593e-16e5-4256-aae8-ebfdf6675969)
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
