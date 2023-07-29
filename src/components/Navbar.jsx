@@ -9,16 +9,58 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const Path = window.location.pathname;
+
   return (
     <div className="w-screen bg-[#000300] border-b border-white/30 top-0 z-10  fixed">
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
         <ul className="hidden md:flex">
-          <li className="p-4 hover:cursor-pointer">Home</li>
-          <li className="p-4 hover:cursor-pointer">Company</li>
-          <li className="p-4 hover:cursor-pointer">Resources</li>
-          <li className="p-4 hover:cursor-pointer">About</li>
-          <li className="p-4 hover:cursor-pointer">Contact</li>
+          <a
+            href="/"
+            className={
+              "p-4 hover:cursor-pointer " +
+              (Path === "/" ? "text-[#00df9a]" : "")
+            }
+          >
+            Home
+          </a>
+          <a
+            href="/company"
+            className={
+              "p-4 hover:cursor-pointer " +
+              (Path === "/company" ? "text-[#00df9a]" : "")
+            }
+          >
+            Company
+          </a>
+          <a
+            href="/resources"
+            className={
+              "p-4 hover:cursor-pointer " +
+              (Path === "/resources" ? "text-[#00df9a]" : "")
+            }
+          >
+            Resources
+          </a>
+          <a
+            href="/about"
+            className={
+              "p-4 hover:cursor-pointer " +
+              (Path === "/about" ? "text-[#00df9a]" : "")
+            }
+          >
+            About
+          </a>
+          <a
+            href="/contact"
+            className={
+              "p-4 hover:cursor-pointer " +
+              (Path === "/contact" ? "text-[#00df9a]" : "")
+            }
+          >
+            Contact
+          </a>
         </ul>
         {/* Mobile Menu */}
         <div
@@ -27,7 +69,6 @@ const Navbar = () => {
         >
           {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
-
         <div
           className={
             !nav

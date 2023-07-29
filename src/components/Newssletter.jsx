@@ -22,7 +22,7 @@ const Newssletter = () => {
             </button>
           </div>
           <p>
-            We care about the protextion of your data. Read our
+            We care about the protextion of your data. Read our{" "}
             <a className="text-[#00df9a]" href="#">
               Privacy Policy.
             </a>
