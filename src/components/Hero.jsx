@@ -1,6 +1,7 @@
 // rafce
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -28,7 +29,16 @@ const Hero = () => {
           platforms.
         </p>
         <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
-          Get Started
+          <Link
+            activeClass="active"
+            to="test1"
+            spy={true}
+            smooth={true}
+            offset={-96}
+            duration={500}
+          >
+            Get Started
+          </Link>
         </button>
       </div>
     </div>

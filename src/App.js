@@ -1,4 +1,18 @@
-import React, { useState } from "react";
+/* 
+ctrl + p to open files: 
+  - > to see all options and settings
+  - @ to scroll to symbol
+
+ctrl + d to edit multi lines
+
+alt + click to set multiple cursors
+
+alt + arrow to shift a line 
+
+alt + shift + arrow to copy and shift line
+*/
+
+import React from "react";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 
