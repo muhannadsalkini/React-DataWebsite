@@ -15,7 +15,7 @@ const About = () => {
           </h1>
           <p className="md:text-2xl text-xl font-bold text-gray-500 py-4">
             Meet the people building{" "}
-            <span className="text-[#00df9a]">REACT.</span>
+            <span className="text-[#00df9a] animate-pulse ">REACT.</span>
           </p>
         </div>
       </div>
@@ -24,12 +24,14 @@ const About = () => {
       <div className="w-full bg-[#F7F7F8] py-[5rem] md:py-[10rem] px-4">
         <div className="max-w-[1240px] mx-auto">
           <h1 className="text-[#00df9a]">MISSION, VALUES + GOALS</h1>
-          <p className="text-2xl sm:text-4xl md:text-5xl py-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-            voluptatem fugit eaque explicabo, nisi eveniet magni praesentium
-            velit iure consequuntur provident quos nam cumque a repellendus rem.
-            Cumque, id necessitatibus.
-          </p>
+          <div className="text-2xl sm:text-4xl md:text-5xl py-4 ">
+            <p className="leading-tight">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+              voluptatem fugit eaque explicabo, nisi eveniet magni praesentium
+              velit iure consequuntur provident quos nam cumque a repellendus
+              rem. Cumque, id necessitatibus.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -275,7 +277,7 @@ const About = () => {
         <div className="max-w-[1240px] mx-auto">
           <p className="text-[#2DCA72]">ELEVATE YOUR BUSINESS</p>
           <div className="grid md:grid-cols-2">
-            <p className="text-white text-5xl py-4">
+            <p className="text-white text-5xl py-4 leading-tight">
               Take your business to the next level with Lemon Squeezy
             </p>
             <div className="mt-auto md:ml-auto">
