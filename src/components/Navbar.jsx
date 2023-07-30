@@ -19,7 +19,7 @@ const Navbar = () => {
           <a
             href="/"
             className={
-              "p-4 hover:cursor-pointer " +
+              "p-4 hover:cursor-pointer hover:scale-105 duration-200 " +
               (Path === "/" ? "text-[#00df9a]" : "")
             }
           >
@@ -28,7 +28,7 @@ const Navbar = () => {
           <a
             href="/company"
             className={
-              "p-4 hover:cursor-pointer " +
+              "p-4 hover:cursor-pointer hover:scale-105 duration-200 " +
               (Path === "/company" ? "text-[#00df9a]" : "")
             }
           >
@@ -37,7 +37,7 @@ const Navbar = () => {
           <a
             href="/resources"
             className={
-              "p-4 hover:cursor-pointer " +
+              "p-4 hover:cursor-pointer hover:scale-105 duration-200 " +
               (Path === "/resources" ? "text-[#00df9a]" : "")
             }
           >
@@ -46,7 +46,7 @@ const Navbar = () => {
           <a
             href="/about"
             className={
-              "p-4 hover:cursor-pointer " +
+              "p-4 hover:cursor-pointer hover:scale-105 duration-200 " +
               (Path === "/about" ? "text-[#00df9a]" : "")
             }
           >
@@ -55,7 +55,7 @@ const Navbar = () => {
           <a
             href="/contact"
             className={
-              "p-4 hover:cursor-pointer " +
+              "p-4 hover:cursor-pointer hover:scale-105 duration-200 " +
               (Path === "/contact" ? "text-[#00df9a]" : "")
             }
           >
@@ -65,7 +65,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div
           onClick={handleNav}
-          className="block md:hidden hover:cursor-pointer"
+          className="block md:hidden hover:cursor-pointer mr-4"
         >
           {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
@@ -81,18 +81,42 @@ const Navbar = () => {
           </h1>
           <ul className="uppercase p-4">
             <li className="p-4 border-b border-gray-600 hover:cursor-pointer">
-              Home
+              <a className={Path === "/" ? "text-[#00df9a]" : ""} href="/">
+                Home
+              </a>
             </li>
             <li className="p-4 border-b border-gray-600 hover:cursor-pointer">
-              Company
+              <a
+                className={Path === "/company" ? "text-[#00df9a]" : ""}
+                href="/company"
+              >
+                Company
+              </a>
             </li>
             <li className="p-4 border-b border-gray-600 hover:cursor-pointer">
-              Resources
+              <a
+                className={Path === "/resources" ? "text-[#00df9a]" : ""}
+                href="/resources"
+              >
+                Resources
+              </a>
             </li>
             <li className="p-4 border-b border-gray-600 hover:cursor-pointer">
-              About
+              <a
+                className={Path === "/about" ? "text-[#00df9a]" : ""}
+                href="/about"
+              >
+                About
+              </a>
             </li>
-            <li className="p-4 hover:cursor-pointer">Contact</li>
+            <li className="p-4 border-b border-gray-600 hover:cursor-pointer">
+              <a
+                className={Path === "/contact" ? "text-[#00df9a]" : ""}
+                href="/contact"
+              >
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       </div>
