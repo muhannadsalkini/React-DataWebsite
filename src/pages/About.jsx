@@ -78,8 +78,12 @@ const About = () => {
           </div>
         </div>
 
-        <div className="max-w-[1200px] lg:absolute lg:right-[-500px] lg:mt-[-700px]">
-          <img className="  object-cover " src={pc} alt="/" />
+        <div className="lg:absolute lg:mt-[-700px] overflow-hidden">
+          <img
+            className="lg:ml-[50vh] object-cover lg:max-h-[1000px] "
+            src={pc}
+            alt="/"
+          />
         </div>
       </div>
 
