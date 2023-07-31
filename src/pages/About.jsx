@@ -21,7 +21,7 @@ const About = () => {
       </div>
 
       {/* 2 */}
-      <div className="w-full bg-[#F7F7F8] py-[5rem] md:py-[10rem] px-4">
+      <div className="w-full bg-gray-50 py-[5rem] md:py-[10rem] px-4">
         <div className="max-w-[1240px] mx-auto">
           <h1 className="text-[#00df9a]">MISSION, VALUES + GOALS</h1>
           <div className="text-2xl sm:text-4xl md:text-5xl py-4 ">
@@ -36,7 +36,7 @@ const About = () => {
       </div>
 
       {/* 3 */}
-      <div className="w-full bg-[#F7F7F8] py-[5rem] md:py-[10rem] px-4">
+      <div className="w-full bg-gray-50 py-[5rem] md:py-[10rem] px-4">
         <div className="max-w-[1240px] mx-auto">
           <div className="grid md:grid-cols-3 gap-2">
             <div className="lg:col-span-2 md:col-span-3">
@@ -44,7 +44,7 @@ const About = () => {
                 <div className="md:bg-transparent bg-white rounded-lg p-6">
                   <p className="text-[#00df9a]">01</p>
                   <h1 className="text-3xl md:text-4xl my-4">Our mission</h1>
-                  <p className="text-[#6c6c89] text-lg">
+                  <p className="text-gray-500 text-lg">
                     We’re here to solve the complex challenges of selling
                     digital products globally. We believe that selling online
                     should be easy-peasy for everyone.
@@ -54,7 +54,7 @@ const About = () => {
                 <div className="md:bg-white rounded-lg p-6">
                   <p className="text-[#00df9a]">02</p>
                   <h1 className="text-3xl md:text-4xl my-4">Our Values</h1>
-                  <p className="text-[#6c6c89] text-lg">
+                  <p className="text-gray-500 text-lg">
                     We are committed to ownership, craftsmanship, execution,
                     humility, simplicity and the art of listening. We work to
                     lift the companies and creatives we work with by delivering
@@ -66,7 +66,7 @@ const About = () => {
                 <div className="bg-white rounded-lg p-6">
                   <p className="text-[#00df9a]">03</p>
                   <h1 className="text-3xl md:text-4xl my-4">Our Goals</h1>
-                  <p className="text-[#6c6c89] text-lg">
+                  <p className="text-gray-500 text-lg">
                     We aim to make global digital sales and payments accessible
                     to everybody. We believe building a fun, streamlined and
                     accessible payments platform will enable our community to
@@ -77,6 +77,7 @@ const About = () => {
             </div>
           </div>
         </div>
+
         <div className="max-w-[1200px] lg:absolute lg:right-[-500px] lg:mt-[-700px]">
           <img className="  object-cover " src={pc} alt="/" />
         </div>
@@ -94,7 +95,7 @@ const About = () => {
               </h1>
             </div>
             <div className="md:pl-8">
-              <p className="text-[#6c6c89] sm:text-lg md:text-xl">
+              <p className="text-gray-500 sm:text-lg md:text-xl">
                 Meet the creative team{" "}
                 <span className="text-black">
                   {" "}
@@ -119,7 +120,7 @@ const About = () => {
             <img width="144px" src={User} alt="/" />
             <h1 className="py-4 text-4xl font-bold">JR Farr</h1>
             <h2 className=" py-4 text-[#C79215]">CEO / CO-FOUNDER</h2>
-            <p className="text-[#6c6c89] md:text-xl">
+            <p className="text-gray-500 md:text-xl">
               Successful entrepreneur with 2 exits. Previously GM / VP at $EIGI
               (Constant Contact, Bluehost, HostGator, MOJO) overseeing strategy
               and product. Additionally, co-founded MOJO Marketplace. As CEO
@@ -136,7 +137,7 @@ const About = () => {
             <img width="144px" src={User} alt="/" />
             <h1 className="py-4 text-4xl font-bold">Orman Clark</h1>
             <h2 className=" py-4 text-[#7554D8]">CDO / CO-FOUNDER</h2>
-            <p className="text-[#6c6c89] md:text-xl">
+            <p className="text-gray-500 md:text-xl">
               World-class product designer with influence in the design space
               with a reach of well over 1M users across his network. Previously
               founded Dunked, ThemeZilla (Acquired). Notable projects include
@@ -153,7 +154,7 @@ const About = () => {
             <img width="144px" src={User} alt="/" />
             <h1 className="py-4 text-4xl font-bold">Gilbert Pellegrom</h1>
             <h2 className=" py-4 text-[#D50B3E]">CTO / CO-FOUNDER</h2>
-            <p className="text-[#6c6c89] md:text-xl">
+            <p className="text-gray-500 md:text-xl">
               Engineering powerhouse with decades of experience empowering
               companies like Dell, AOL, and eBay to create experiences for
               millions of people worldwide. Previously SpinupWP, Dunked,
@@ -170,7 +171,7 @@ const About = () => {
             <img width="144px" src={User} alt="/" />
             <h1 className="py-4 text-4xl font-bold">Jason Schuller</h1>
             <h2 className=" py-4 text-[#1E874C]">STRATEGY / CO-FOUNDER</h2>
-            <p className="text-[#6c6c89] md:text-xl">
+            <p className="text-gray-500 md:text-xl">
               Serial, solo-entrepreneur with several exits. Responsible for
               creating a diverse set of products lauded by thousands of
               customers. Previously Microsoft, Plasso (Acquired by GoDaddy),
@@ -190,12 +191,12 @@ const About = () => {
             <img width="96px" src={User} alt="/" />
             <h1 className="text-3xl md:text-4xl py-6">Ram Ratan Maurya</h1>
             <h2 className="text-[#3D96C1] pb-4">ENGINEERING</h2>
-            <p className="text-[#6c6c89]">
+            <p className="text-gray-500">
               Software Engineer. With over a decade of experience building
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-[#F7F7F8] rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -204,12 +205,12 @@ const About = () => {
             <img width="96px" src={User} alt="/" />
             <h1 className="text-3xl md:text-4xl py-6">Ram Ratan Maurya</h1>
             <h2 className="text-[#3D96C1] pb-4">ENGINEERING</h2>
-            <p className="text-[#6c6c89]">
+            <p className="text-gray-500">
               Software Engineer. With over a decade of experience building
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-[#F7F7F8] rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -218,12 +219,12 @@ const About = () => {
             <img width="96px" src={User} alt="/" />
             <h1 className="text-3xl md:text-4xl py-6">Ram Ratan Maurya</h1>
             <h2 className="text-[#3D96C1] pb-4">ENGINEERING</h2>
-            <p className="text-[#6c6c89]">
+            <p className="text-gray-500">
               Software Engineer. With over a decade of experience building
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-[#F7F7F8] rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -232,12 +233,12 @@ const About = () => {
             <img width="96px" src={User} alt="/" />
             <h1 className="text-3xl md:text-4xl py-6">Ram Ratan Maurya</h1>
             <h2 className="text-[#3D96C1] pb-4">ENGINEERING</h2>
-            <p className="text-[#6c6c89]">
+            <p className="text-gray-500">
               Software Engineer. With over a decade of experience building
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-[#F7F7F8] rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -246,12 +247,12 @@ const About = () => {
             <img width="96px" src={User} alt="/" />
             <h1 className="text-3xl md:text-4xl py-6">Ram Ratan Maurya</h1>
             <h2 className="text-[#3D96C1] pb-4">ENGINEERING</h2>
-            <p className="text-[#6c6c89]">
+            <p className="text-gray-500">
               Software Engineer. With over a decade of experience building
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-[#F7F7F8] rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -260,12 +261,12 @@ const About = () => {
             <img width="96px" src={User} alt="/" />
             <h1 className="text-3xl md:text-4xl py-6">Ram Ratan Maurya</h1>
             <h2 className="text-[#3D96C1] pb-4">ENGINEERING</h2>
-            <p className="text-[#6c6c89]">
+            <p className="text-gray-500">
               Software Engineer. With over a decade of experience building
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-[#F7F7F8] rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -281,7 +282,7 @@ const About = () => {
               Take your business to the next level with Lemon Squeezy
             </p>
             <div className="mt-auto md:ml-auto">
-              <button className=" bg-[#F7F7F8] rounded-full m-6 p-4 px-10 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+              <button className=" bg-gray-50 rounded-full m-6 p-4 px-10 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
                 Get Started For Free <ArrowSmRightIcon className="h-6 ml-2" />
               </button>
             </div>
