@@ -80,7 +80,7 @@ const About = () => {
 
         <div className="lg:absolute lg:mt-[-700px] overflow-hidden">
           <img
-            className="lg:ml-[50vh] object-cover lg:max-h-[1000px] "
+            className="lg:ml-[60vh] xl:ml-[80vh] 2xl:ml-[105vh] mr-auto object-cover lg:max-h-[900px] "
             src={pc}
             alt="/"
           />

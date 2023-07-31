@@ -19,7 +19,7 @@ const Resources = () => {
       </div>
 
       {/* 2 */}
-      <div className="w-full bg-white py-[10rem] px-4">
+      <div className="w-full bg-white py-[5rem] md:py-[10rem] px-4">
         <div className="max-w-[1240px] mx-auto">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
             {/* Filter */}
@@ -27,63 +27,63 @@ const Resources = () => {
               <h1 className="font-bold text-3xl py-8">Filter resources</h1>
               <p className="py-4 font-bold">By type</p>
               <div className="py-2">
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200 bg-[#7047EB] text-white">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200 bg-[#7047EB] text-white">
                   All
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
                   Success Story
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
                   White Paper
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
                   Guide
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
                   Ebook
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
                   Video
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
                   Checklist
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#7047EB] hover:bg-[#7047EB] hover:text-white duration-200">
                   Infographic
                 </button>
               </div>
 
               <p className="py-4 font-bold">By business sector</p>
               <div>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200 bg-[#D50B3E] text-white">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200 bg-[#D50B3E] text-white">
                   All
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Utilities & Energy
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Banking & Insurance
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Transportation & Mobility
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Local Goverment
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Public Institutions
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                  Transport & Mobilite
+                </button>
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Services & Manufacturing Businesses
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Energie & Utilities
                 </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
+                <button className="md:text-lg lg:text-sm border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
                   Collectives Territoriales
-                </button>
-                <button className="text-lg border-2 rounded-full px-4 py-2 mx-1 my-1 border-[#D50B3E] hover:bg-[#D50B3E] hover:text-white duration-200">
-                  Transport & Mobilite
                 </button>
               </div>
 
@@ -225,7 +225,7 @@ const Resources = () => {
                   </p>
                 </div>
               </div>
-              <div className="text-center text-2xl flex flex-col mt-8">
+              <div className="text-center md:text-2xl flex flex-col mt-8">
                 <ul className="flex flex-row mx-auto">
                   <li className=" font-bold mx-4 hover:text-[#D50B3E] duration-200 cursor-pointer text-[#D50B3E]">
                     1
