@@ -20,7 +20,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">1 User Allowed</p>
             <p className="py-2 border-b mx-8">Send up to 2GB</p>
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:scale-105 hover:bg-black hover:text-[#00df9a] duration-200">
             Start Trail
           </button>
         </div>
@@ -38,7 +38,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">3 User Allowed</p>
             <p className="py-2 border-b mx-8">Send up to 10GB</p>
           </div>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:scale-105 hover:bg-[#00df9a] hover:text-black duration-200">
             Start Trail
           </button>
         </div>
@@ -56,7 +56,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">10 User Allowed</p>
             <p className="py-2 border-b mx-8">Send up to 20GB</p>
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:scale-105 hover:bg-black hover:text-[#00df9a] duration-200">
             Start Trail
           </button>
         </div>

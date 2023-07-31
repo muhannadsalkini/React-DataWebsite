@@ -19,19 +19,54 @@ const Footer = () => {
             accusantium.
           </p>
           <div className="flex justify-between md:w-[75%] my-6">
-            <FaFacebookSquare size={30} />
-            <FaInstagram size={30} />
-            <FaTwitterSquare size={30} />
-            <FaGithubSquare size={30} />
-            <FaDribbbleSquare size={30} />
+            <a
+              className="hover:text-[#00df9a] hover:scale-105 duration-200"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebookSquare size={30} />
+            </a>
+            <a
+              className="hover:text-[#00df9a] hover:scale-105 duration-200"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram size={30} />
+            </a>
+            <a
+              className="hover:text-[#00df9a] hover:scale-105 duration-200"
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitterSquare size={30} />
+            </a>
+            <a
+              className="hover:text-[#00df9a] hover:scale-105 duration-200"
+              href="https://github.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithubSquare size={30} />
+            </a>
+            <a
+              className="hover:text-[#00df9a] hover:scale-105 duration-200"
+              href="https://dribbble.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaDribbbleSquare size={30} />
+            </a>
           </div>
         </div>
         <div className="lg:col-span-2 flex justify-between mt-6">
           <div>
             <h6 className="font-medium text-gray-400">Solutions</h6>
             <ul>
-              <li className="py-2 text-sm">Analytics</li>
               <li className="py-2 text-sm">Marketing</li>
+              <li className="py-2 text-sm">Analytics</li>
               <li className="py-2 text-sm">Commerce</li>
               <li className="py-2 text-sm">Insights</li>
             </ul>

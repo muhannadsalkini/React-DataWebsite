@@ -177,7 +177,7 @@ const About = () => {
               customers. Previously Microsoft, Plasso (Acquired by GoDaddy),
               Press75 (Acquired), Leeflets (Acquired), RIVYT and more.
             </p>
-            <button className=" bg-white rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-white rounded-full m-6 p-4 hover:bg-[#00df9a] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -196,7 +196,7 @@ const About = () => {
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#00df9a] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -210,7 +210,7 @@ const About = () => {
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#00df9a] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -224,7 +224,7 @@ const About = () => {
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#00df9a] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -238,7 +238,7 @@ const About = () => {
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#00df9a] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -252,7 +252,7 @@ const About = () => {
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#00df9a] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -266,7 +266,7 @@ const About = () => {
               products on WordPress, and lately Laravel. Previously at Delicious
               Brains, WPEngine.
             </p>
-            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+            <button className=" bg-gray-50 rounded-full m-6 p-4 hover:bg-[#00df9a] hover:scale-105 duration-200 flex">
               @jbtksc <ArrowSmRightIcon className="h-6 ml-2" />
             </button>
           </div>
@@ -276,13 +276,13 @@ const About = () => {
       {/* 7 */}
       <div className="w-full bg-black py-[10rem] px-4">
         <div className="max-w-[1240px] mx-auto">
-          <p className="text-[#2DCA72]">ELEVATE YOUR BUSINESS</p>
+          <p className="text-[#00df9a]">ELEVATE YOUR BUSINESS</p>
           <div className="grid md:grid-cols-2">
             <p className="text-white text-5xl py-4 leading-tight">
               Take your business to the next level with Lemon Squeezy
             </p>
             <div className="mt-auto md:ml-auto">
-              <button className=" bg-gray-50 rounded-full m-6 p-4 px-10 hover:bg-[#2DCA72] hover:scale-105 duration-200 flex">
+              <button className="  rounded-full m-6 p-4 px-10 hover:bg-black bg-[#00df9a] hover:text-[#00df9a] hover:scale-105 duration-200 flex">
                 Get Started For Free <ArrowSmRightIcon className="h-6 ml-2" />
               </button>
             </div>
