@@ -13,10 +13,10 @@ alt + shift + arrow to copy and shift line
 */
 
 import React from "react";
-import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
@@ -36,10 +36,9 @@ function App() {
         <Route path="/resources" element={<Resources />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="*" element={<NotFound />} status={404} />
       </Routes>
-
       <Footer />
     </div>
   );
