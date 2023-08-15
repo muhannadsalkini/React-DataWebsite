@@ -283,7 +283,8 @@ const About = () => {
           <p className="text-[#00df9a]">ELEVATE YOUR BUSINESS</p>
           <div className="grid md:grid-cols-2">
             <p className="text-white text-5xl py-4 leading-tight">
-              Take your business to the next level with Lemon Squeezy
+              Take your business to the next level with{" "}
+              <span className="text-[#00df9a]">REACT.</span>
             </p>
             <div className="mt-auto md:ml-auto">
               <button className="  rounded-full m-6 p-4 px-10 hover:bg-black bg-[#00df9a] hover:text-[#00df9a] hover:scale-105 duration-200 flex">
