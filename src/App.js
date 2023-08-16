@@ -25,6 +25,8 @@ import Resources from "./pages/Resources";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Login from "./pages/Login";
+import Signup from "./pages/Singup";
 
 function App() {
   return (
@@ -38,6 +40,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="*" element={<NotFound />} status={404} />
+        <Route path="login" element={<Login />} />
+        <Route path="singup" element={<Signup />} />
       </Routes>
       <Footer />
     </div>
